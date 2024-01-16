@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: lemon;
+  src: url('../../public/font/Lemon-Regular.ttf');
+}
+
+@font-face {
+  font-family: carattere;
+  src: url('../../public/font/Carattere-Regular.ttf');
+}
+
+@font-face {
+  font-family: montserra;
+  src: url('../../public/font/Montserrat.ttf');
+}
+
+.ant-select-selection-placeholder {
+  color: red;
+  opacity: 1;
+}
